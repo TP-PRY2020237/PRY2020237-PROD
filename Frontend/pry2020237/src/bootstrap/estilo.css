@@ -1,0 +1,43 @@
+
+.col-1-theme {width: 8.33%;}
+.col-2-theme{width: 16.66%;}
+.col-3-theme{width: 25%;}
+.col-4-theme{width: 33.33%;}
+.col-5-theme{width: 41.66%;}
+.col-6-theme{width: 50%;}
+.col-7-theme{width: 58.33%;}
+.col-8-theme{width: 66.66%;}
+.col-9-theme{width: 75%;}
+.col-10-theme {width: 83.33%;}
+.col-11-theme {width: 91.66%;}
+.col-12-theme {width: 100%;}
+
+.column-theme-card{
+    width: 50%;
+    padding: 10px;
+
+}
+
+.column-theme{
+float: left;
+width: 50%;
+}
+.row-theme-card{
+    width: 100%;
+}
+.row-theme::after {
+content: "";
+clear: both;
+display: table;
+}
+.change{
+    background-color: transparent;
+    background: transparent;
+}
+
+.v-carousel_controles{
+    background: transparent !important;
+}
+.theme--dark.v-image {
+    color: darkblue !important; 
+}
